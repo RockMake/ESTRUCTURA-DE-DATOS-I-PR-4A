@@ -1,1 +1,1 @@
-# ESTRUCTURA-DE-DATOS-I-PR---4A-JOSE-CARMONA-
+Estructura de Datos I (PR) - 4A (José Carmona) Este repositorio contiene todas las actividades desarrolladas durante la asignatura Estructura de Datos I, impartida por el profesor José Carmona. En esta materia, exploramos y aplicamos los conceptos fundamentales sobre la organización, gestión y almacenamiento de datos, incluyendo estructuras como listas, pilas, colas, árboles y grafos. A través de estos ejercicios, buscamos fortalecer habilidades en lógica, programación y diseño de algoritmos eficientes.
