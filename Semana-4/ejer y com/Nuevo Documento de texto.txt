@@ -1,0 +1,10 @@
+un nodo de almacenamiento son buzones de memorias, con las siguientes características: 
+
+1. tiene una dirección única de acceso 
+2. consta de campos los cuales pueden almacenar información de diferentes tamaños y tipos 
+3. los campos pueden ser de información y de control 
+4. los campos de información se refieren a los requerimientos de datos de los usuarios, mientras que los campos de control se refieren a datos tipos punteros, es decir direcciones del almacenamiento 
+5. el acceso a la información contenida en los campos del nodo, se debe realizar a través de variables auxiliares de tipo puntero 
+6. el tamaño de los nodos se define en bytes y depende de la longitud de sus campos
+7. la conformación de un nodo se define en el lenguaje c++ con la palabra clave struct 
+8. un nodo puede contener cualquier cantidad de campos, tiene una denominación al igual que sus campos. 
