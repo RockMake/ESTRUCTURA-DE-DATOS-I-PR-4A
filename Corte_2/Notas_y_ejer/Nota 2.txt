@@ -1,0 +1,104 @@
+dada una lista simple apuntada por cabecera, la cual contiene en cada nodo la estatura de un atleta:
+
+A: imprima el promedio de estatura de todos los atletas
+B: imprima cuantos de esos atletas tuvieron una estatura por encima de dicho promedio,
+
+Nota:
+1. utilice un si - no (procedimiento) pasa parámetro pero no retorna 
+2. no se requiere el programa principal con su menú. 
+
+
+
+estruc atleta 
+{
+   estatura  
+*siguiente 
+};
+
+
+---- invocacion del prototipo ---- 
+
+
+void proceso-atleta(atletas*cab);
+
+procesar-atleta(cab);
+
+--- sub programa ---- 
+
+void proceso-atleta(atleta*cab);
+{
+variable de control 
+
+p = cab; (no mover la cabecera)
+sumador = 0
+contador = 0 
+
+
+filtros:
+
+----------- estra nota if (cab  && cab -> siguiente)
+
+if (cab == NULL)
+if  - siguiente es true  (osea que si hay otro valor en el siguiente nodo)
+else -  cab -> siguiente = NULL 
+    hay un atleta 
+while(p != null){
+    suma = suma + p -> estatura,
+    conta ++;
+
+}
+promedio = (suma + 1.0) conta;
+coutt << "promedio de estatura es:" << promedio;
+
+
+p = cab;    
+contador = 0
+while while(p != null) 
+    if (p -> contador > promedio )
+    contador ++;
+
+p = p -> siguiente;
+coutt << ":" << promedio;
+
+
+variable   -- 
+de control --
+
+
+}
+
+
+
+
+
+
+
+
+
+//////  dada una lista simple apuntada por cabecera (Cab) la cual contiene por cada nodo la edad de un estudiante de la universidad, escriba un si (pasa parametro)- no (no devuelve nada)
+que permita imprimir un mensaje para determinar si, se encontro al menos un estudiante menor de edad en la lista o nodo
+
+notas:
+1. imprima dentro del procedimiento 
+2. defina el prototipo, la invocacion y el cuerpo del sub progama
+3. no se requiere el main
+
+estruc estudiantes
+{
+   edad  
+*siguiente 
+};
+
+
+---- invocacion del prototipo ----  
+
+void procesar-estudiantes(estudiantes*cab);
+
+--- sub programa --- 
+
+void procesar-estudiantes(estudiantes*cab);{
+    if (cab && cab -> siguiente)
+        
+    else
+        "no existe, o solo existe 1 nodo"
+}
