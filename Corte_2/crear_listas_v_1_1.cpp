@@ -222,6 +222,7 @@ void encontrar_menor(nodo *cab, int &menor, bool &iguales) {
 }
 
 
+/* Agregue un SI - NO que permita imprimir dentro del procedimiento aquellos pares encontrado en la lista que esten presedidos por impares   */
 
 
 
