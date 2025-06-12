@@ -1,0 +1,18 @@
+# Glosario de Variables y Estructuras – Proyecto Banco JD
+
+Este glosario describe las principales variables, estructuras y su propósito dentro del programa.
+
+| Nombre               | Tipo                        | Descripción                                                                 |
+|----------------------|-----------------------------|-----------------------------------------------------------------------------|
+| CUENTAS              | struct                      | Representa una cuenta bancaria. Contiene número, cédula, saldo y siguiente.|
+| MOVIMIENTOS          | struct                      | Representa un movimiento bancario (tipo, valor, cuenta, siguiente nodo).   |
+| cab1                 | CUENTAS*                    | Cabeza de la lista de cuentas bancarias.                                   |
+| cab2                 | MOVIMIENTOS*                | Cabeza de la lista de movimientos registrados.                             |
+| nuevo                | CUENTAS* / MOVIMIENTOS*     | Nodo temporal al insertar cuenta o movimiento.                             |
+| cuen1, cuen2         | int                         | Número de cuenta de origen/destino para operaciones.                       |
+| valor                | float                       | Monto ingresado para consignar, retirar o transferir.                      |
+| saldo                | float                       | Saldo resultante o consultado, retornado por referencia.                   |
+| opcion               | int                         | Opción seleccionada en el menú principal.                                  |
+| q                    | CUENTAS* / MOVIMIENTOS*     | Puntero auxiliar para recorrer las listas.                                 |
+| ant                  | CUENTAS*                    | Puntero al nodo anterior en cancelación de cuentas.                        |
+| o, d                 | CUENTAS*                    | Punteros a cuentas origen (`o`) y destino (`d`) en transferencia.          |
